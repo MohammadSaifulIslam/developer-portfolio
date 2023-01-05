@@ -80,22 +80,77 @@ nav ul li {
     font-size: 85px;
     color: #181818;
 }
+
 .bannar-text p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.secondary-btn{
+
+.secondary-btn {
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
     color: #FD6E0A;
     background: #FFFFFF;
     border-radius: 5px;
-    border: 1px solid #FD6E0A ;
+    border: 1px solid #FD6E0A;
 }
-.bannar-btn button{
+
+.bannar-btn button {
     margin-right: 30px;
 }
+
 /* bannar part end */
+/* about part start */
+.about {
+    text-align: center;
+    margin: 150px 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 155px 130px;
+}
+
+.about h2 {
+    margin-bottom: 30px;
+}
+
+.common-title h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.common-description p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info {
+    margin-top: 30px;
+}
+
+.about-info ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info ul {
+    margin-right: 50px;
+}
+
+.about-info ul li h5 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-info ul li p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* about part end */
