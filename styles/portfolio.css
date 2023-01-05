@@ -11,7 +11,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 .primary-text {
     color: #FD6E0A;
 }
@@ -21,6 +20,11 @@ li {
 }
 
 /* nav part start */
+header{
+   background: url(../images/developer.png);
+   position: bottom left;
+   background-repeat: no-repeat;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,7 +66,7 @@ nav ul li {
     margin: 0 40px 0 200px;
     background: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom ;
 }
 
 .bannar-text {
@@ -104,22 +108,23 @@ nav ul li {
 
 /* bannar part end */
 /* about part start */
+main{
+    margin: 0 130px;
+}
 .about {
     text-align: center;
-    margin: 150px 130px;
+    margin: 100px 0;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 155px 130px;
 }
 
-.about h2 {
-    margin-bottom: 30px;
-}
 
-.common-title h3 {
+.common-title h2 {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
+    margin-bottom: 25px;
 }
 
 .common-description p {
@@ -154,3 +159,27 @@ nav ul li {
 }
 
 /* about part end */
+/* what i do part start */
+.what-i-do{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+}
+.skill-info{
+    padding: 30px;
+    margin-left: 25px;
+}
+.skill-text h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px;
+}
+.skill-text p{
+    font-size: 16px;
+    color: #757575;
+}
+/* what i do part end */
