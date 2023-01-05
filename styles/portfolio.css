@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    text-decoration:solid;
+}
+a{
+    text-decoration: none;
+}
+.primary-text{
+    color: #FD6E0A;
+}
+li{
+    list-style: none;
+}
+/* nav and bannar part start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    margin-left: 20px;    
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+/* nav and bannar part end */
