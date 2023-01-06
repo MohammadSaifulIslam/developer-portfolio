@@ -183,3 +183,43 @@ main{
     color: #757575;
 }
 /* what i do part end */
+/* resume part start */
+.resume{
+    text-align: center;
+    margin-top: 100px;
+}
+.resume-sub-title{
+    font-weight: 700;
+font-size: 30px;
+color: #474747;
+margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    margin-top: 100px;
+}
+.resume-content h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    
+}
+.resume-content h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0 30px;
+}
+.resume-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    /* padding-right: 40px; */
+}
+.resume-content hr{
+    margin: 30px 0;
+}
+/* resume part end */
