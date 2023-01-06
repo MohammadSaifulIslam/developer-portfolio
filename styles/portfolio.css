@@ -11,6 +11,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .primary-text {
     color: #FD6E0A;
 }
@@ -20,15 +21,17 @@ li {
 }
 
 /* nav part start */
-header{
-   background: url(../images/developer.png);
-   position: bottom left;
-   background-repeat: no-repeat;
+header {
+    background: url(../images/developer.png);
+    position: bottom left;
+    background-repeat: no-repeat;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
+    padding: 50px 0;
 
 }
 
@@ -66,7 +69,7 @@ nav ul li {
     margin: 0 40px 0 200px;
     background: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom ;
+    background-position: right bottom;
 }
 
 .bannar-text {
@@ -108,9 +111,10 @@ nav ul li {
 
 /* bannar part end */
 /* about part start */
-main{
+main {
     margin: 0 130px;
 }
+
 .about {
     text-align: center;
     margin: 100px 0;
@@ -160,66 +164,111 @@ main{
 
 /* about part end */
 /* what i do part start */
-.what-i-do{
+.what-i-do {
     text-align: center;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     margin-top: 50px;
     text-align: left;
 }
-.skill-info{
+
+.skill-info {
     padding: 30px;
     margin-left: 25px;
 }
-.skill-text h4{
+
+.skill-text h4 {
     font-weight: 700;
     font-size: 20px;
     color: #181818;
     margin: 30px 0 20px;
 }
-.skill-text p{
+
+.skill-text p {
     font-size: 16px;
     color: #757575;
 }
+
 /* what i do part end */
 /* resume part start */
-.resume{
+.resume {
     text-align: center;
     margin-top: 100px;
 }
-.resume-sub-title{
+
+.resume-sub-title {
     font-weight: 700;
-font-size: 30px;
-color: #474747;
-margin-bottom: 30px;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 50px;
     text-align: left;
     margin-top: 100px;
 }
-.resume-content h3{
+
+.resume-content h3 {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
-    
+
 }
-.resume-content h5{
+
+.resume-content h5 {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
     margin: 10px 0 30px;
 }
-.resume-content p{
+
+.resume-content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #757575;
     /* padding-right: 40px; */
 }
-.resume-content hr{
+
+.resume-content hr {
     margin: 30px 0;
+}
+
+/* resume part end */
+/* resume part end */
+footer{
+    background: #FFF8F3;
+    padding: 100px 0;
+    margin-top: 100px;
+    
+}
+.contact {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 0 200px;
+   
+}
+
+.contact-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.contact-description{
+    line-height: 20px;
+    color: #474747;
+    font-weight: 400;
+font-size: 16px;
+}
+.contact-form input, textarea{
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 25px;
+    border: 0;
 }
 /* resume part end */
